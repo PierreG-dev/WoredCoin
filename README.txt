@@ -1,30 +1,21 @@
+# WoredCoin _ Level_1
+# Programme C
 
-*******************************************
-*    NOM     PRENOM   GROUPE    NUM.E     *
-*******************************************
-*    GODINO  Pierre   TDA5.1   21606179   *
-*    ROLLAND Florian  TDA5.2   21606179   *
-*                                         *
-*******************************************
-*      Version Finale le 07/05/2018       *
-*******************************************
+Notice du Logiciel du WoredCoin 0.1:
 
-------------------------------------------------------------------------------------------------------------------
+Commande: ./woredCoin -b (bombreDeBlock) -d (difficultÃ©) -cb (Optionnel -> supprime le block nÂ°x) -ct (Optionnel -> supprime la transaction nÂ°x NECCESSITE -cb)
 
-L'entiereté de ce qui a été prévu dans le canevas a été terminé avec succès, excepté la partie communication entre
-les programmes, cause : manque d'effectif ( groupe de 2 au lieu de 4)
+Configuration: Toutes les variables de configuration sont disponibles dans le fichier config.h
 
-parmis tout ce qui a été fait, on peut retrouver différents dossiers qui englobent le tout, notemment :
+Exemple:
 
-	- Dossier Conception C : contient toutes les informations concernant le code du programme en language C
+\\#define MAX_BLOCK 3 //nb de caract du Nombre
+\\#define MAX_TRANSACTION_CHAR 3 //nb de caract du Nombre de Transaction
+\\#define MAX_NONCE_CHAR 10 //Nb caract max de la nonce
+\\#define TRANSACTION_SIZE 30 // Taille de la chaine de caractÃ¨re d'une transaction
+\\#define TIMESTAMP_SIZE 25 //nb de caract du timeStamp
 
-	- Dossier Conception JAVA : contient toutes les informations sur le code du programme en language JAVA + le rapport effectué par le MT
-
-	- Dossier Solution : Dossier contenant les premiers aspects des algorithmes complexes utilisés dans les programmes, sous forme de pseudo-code et schématisé
-
-	- Manuel Utilisateur : Manuel d'utilisation de l'application WoredCoin, qui explique les différentes fonctionnalités du programme
-
-	- Le Canevas du projet : Canevas étant mis a jour à sa version finale
-
-==================================================================================================================
-GODINO Pierre & ROLLAND Florian TDA5     Projet WOREDCoin 30/01/2018 --> 07/05/2018
+\\#define MAX_TRANSACTION 100 //nb max de transaction
+\\#define HASH_SIZE 64 //Taille du hash
+\\#define MAX_NONCE 9999999 //Nonce max
+\\#define MAX_VALUE_RAND 1000000 //Max nombre random pour simuler transaction
