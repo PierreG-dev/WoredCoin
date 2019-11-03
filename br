@@ -1,0 +1,1 @@
+{"difficulty":1,"nbBlock":1,"nbTransMax":1,"blockchain":[{"index":1,"timestamp":"[ 06/04/2018  12:47:46 ]","hash":"09da7882b7a5229f20d3b56582dd0acdc8e95683d8d4bf7c412dd9c9363f1625","hashMerk":"81ddc8d248b2dccdd3fdd5e84f0cad62b08f2d10b57f9a831c13451e5c5c80a5","hashPrev":"0","nbTrans":1,"nonce":30,"transactions":["Genesis"],"nbTransMax":1}]}
